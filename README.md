@@ -15,7 +15,7 @@ class Program
         Console.Write("Digite um número inteiro: ");
         int numero;
 
-        // Tenta ler e converter a entrada do usuário para um inteiro //
+// Tenta ler e converter a entrada do usuário para um inteiro //
   if (int.TryParse(Console.ReadLine(), out numero))
         {
             // Verifica se o número é par ou ímpar usando o operador módulo (%) //
