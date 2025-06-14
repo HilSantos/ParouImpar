@@ -11,14 +11,14 @@ class Program
 {
     static void Main()
     {
-        // Solicita ao usuário que digite um número inteiro //
+// Solicita ao usuário que digite um número inteiro //
         Console.Write("Digite um número inteiro: ");
         int numero;
 
 // Tenta ler e converter a entrada do usuário para um inteiro //
   if (int.TryParse(Console.ReadLine(), out numero))
         {
-            // Verifica se o número é par ou ímpar usando o operador módulo (%) //
+// Verifica se o número é par ou ímpar usando o operador módulo (%) //
             if (numero % 2 == 0)
             {
                 Console.WriteLine($"O número {numero} é par.");
